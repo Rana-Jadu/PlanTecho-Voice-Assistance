@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanTecho - Plant Assistant</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="app-name">PlanTecho</div>
+                <div class="app-subtitle">Smart Plant Assistant</div>
+            </div>
+            <div class="chat-box" id="chat-box"></div>
+            <div class="chat-input-area">
+                <div class="controls">
+                    <input type="text" id="user-input" placeholder="Type or speak your plant question...">
+                    <button id="send-button" type="button" aria-label="Send message">
+                        <span class="material-icons">send</span>
+                    </button>
+                    <button id="record-button" type="button" aria-label="Record voice">
+                        <span class="material-icons">mic</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="robot-sidebar">
+            <img src="https://i.pinimg.com/736x/71/1b/c0/711bc0db523ec8af384503c005637c10.jpg" alt="PlanTecho Robot"
+                class="robot-image">
+            <div class="welcome-message">
+                Welcome, I am the PlanTecho-Assistant.
+                I am here to help you get answers to all your plant-related questions only.
+
+                مرحبا بك أنا المساعد الخاص ب PlanTecho,
+                .أنا هنا لمساعدتك في الحصول على اجوبة لجميع أسْلتك الخاصة بالنباتات فقط
+            </div>
+        </div>
+    </div>
+    <script src="voiceAssist_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../Downloads/VOICE-CHAT/venv"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PlanTecho_voice_assistance"
+	}
+}
